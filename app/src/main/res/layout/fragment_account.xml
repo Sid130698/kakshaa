@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="24dp"
+            android:textSize="26sp"
+            android:id="@+id/userNameTextViewLogOut"/>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/logOutButton"
+       android:background="@drawable/for_edit_text_bck"
+       android:text="Log Out"
+       android:paddingLeft="42dp"
+       android:paddingRight="42dp"
+       />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingLeft="42dp"
+            android:paddingRight="42dp"
+            android:text="Requests"
+            android:background="@drawable/for_edit_text_bck"
+            android:layout_margin="24dp"
+            android:id="@+id/requestButton"/>
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteAccountButton"
+        android:background="@drawable/for_edit_text_bck"
+        android:text="Delete Account"
+        android:paddingLeft="42dp"
+            android:layout_margin="24dp"
+        android:paddingRight="42dp"
+        />
+    </LinearLayout>
+
+
+</RelativeLayout>

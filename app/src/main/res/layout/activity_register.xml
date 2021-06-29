@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/waltograph_ui"
+            android:text="Regsiter"
+            android:textSize="36sp"
+            android:layout_margin="32dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="24sp"
+            android:background="@drawable/for_edit_text_bck"
+            android:textAlignment="center"
+            android:hint="Enter Your Name"
+            android:padding="7dp"
+            android:layout_margin="12dp"
+            android:id="@+id/registerEnterNameEditText"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="24sp"
+            android:background="@drawable/for_edit_text_bck"
+
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:hint="E-Mail ID"
+            android:padding="7dp"
+            android:layout_margin="12dp"
+            android:id="@+id/registerEmailIDEditText"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="24sp"
+            android:background="@drawable/for_edit_text_bck"
+            android:textAlignment="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="7dp"
+            android:layout_margin="12dp"
+            android:id="@+id/registerPasswordEditText"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="24sp"
+            android:background="@drawable/for_edit_text_bck"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:hint="Re-Enter Password"
+            android:padding="7dp"
+            android:layout_margin="12dp"
+            android:id="@+id/registerConfPasswordEditText"
+            />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Select Subjects"
+     android:fontFamily="@font/waltograph_ui"
+    android:textAlignment="center"
+    android:layout_marginTop="22dp"
+     android:textSize="32sp"
+     android:textColor="@color/black"
+     />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:id="@+id/physicsSubCheckBox"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:id="@+id/chemistrySubCheckBox"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:id="@+id/mathsSubCheckBox"
+                />
+        </LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/submitRegisterBtn"
+    android:text="Submit"
+    android:paddingRight="55dp"
+    android:paddingLeft="55dp"
+    android:background="@drawable/for_edit_text_bck"
+    android:textColor="@color/black"
+    android:fontFamily="@font/nunito"
+    android:layout_margin="12dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

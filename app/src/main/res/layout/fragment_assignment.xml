@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/waltograph_ui"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:text="Assignments"
+            android:elevation="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:backgroundTint="@color/color1"
+            android:id="@+id/physicsLinearLayout"
+            android:layout_margin="12dp"
+            android:background="@drawable/for_edit_text_bck"
+            >
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+
+                android:padding="5dp"
+                android:src="@drawable/einstein"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:fontFamily="@font/nunito"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_margin="12dp"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:id="@+id/physicsSubjectTextViewForView"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/chemistryLinearLayout"
+            android:padding="5dp"
+            android:backgroundTint="@color/color1"
+            android:layout_margin="12dp"
+            android:background="@drawable/for_edit_text_bck"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@drawable/chemistry"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:fontFamily="@font/nunito"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:id="@+id/chemistrySubjectTextViewForView"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:id="@+id/mathsLinearLayout"
+            android:backgroundTint="@color/color1"
+            android:layout_margin="12dp"
+            android:background="@drawable/for_edit_text_bck"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@drawable/mathematics"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maths"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:fontFamily="@font/nunito"
+                android:layout_margin="12dp"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:id="@+id/mathsSubjectTextViewForView"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

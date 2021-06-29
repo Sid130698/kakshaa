@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addAssignment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Assignment"
+            android:id="@+id/addAssignmentButton"
+            android:visibility="visible"
+            android:fontFamily="@font/nunito"
+            android:background="@drawable/for_edit_text_bck"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:elevation="10dp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito"
+            android:inputType="text"
+            android:lines="1"
+            android:background="@drawable/for_edit_text_bck"
+            android:hint="Enter the File Name"
+            android:visibility="invisible"
+            android:layout_margin="20dp"
+            android:id="@+id/fileNameEditText"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:fontFamily="@font/nunito"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            android:background="@drawable/for_edit_text_bck"
+            android:id="@+id/uploadAssignmentButton"
+            android:visibility="gone"
+            android:layout_margin="30dp"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

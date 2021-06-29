@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156362740808",
+    "firebase_url": "https://tuitionbuddy-d4b70-default-rtdb.firebaseio.com",
+    "project_id": "tuitionbuddy-d4b70",
+    "storage_bucket": "tuitionbuddy-d4b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156362740808:android:e652820e3398f851c6747d",
+        "android_client_info": {
+          "package_name": "com.example.tuitionbuddy01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156362740808-phbmqmgpj1nc3blevqrukikng2on2mgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD13y6jOslpMgK6ZVfbBNQX-jF6nkwdovY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156362740808-phbmqmgpj1nc3blevqrukikng2on2mgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

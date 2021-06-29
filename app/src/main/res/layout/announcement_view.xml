@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="@color/color1"
+        android:background="@drawable/for_edit_text_bck">
+        <TextView
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:fontFamily="@font/nunito"
+            android:textColor="#004a89"
+            android:id="@+id/announcementUserNameTV"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:id="@+id/announcementMessageTV"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

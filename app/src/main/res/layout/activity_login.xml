@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/waltograph_ui"
+            android:text="Log-In"
+            android:textSize="48sp"
+            android:layout_margin="48dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:id="@+id/loginEmailEditText"
+            android:layout_margin="12dp"
+            android:padding="7dp"
+            android:textAlignment="center"
+
+            android:background="@drawable/for_edit_text_bck"
+
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:background="@drawable/for_edit_text_bck"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:hint="PassWord"
+            android:id="@+id/PasswordEditText"
+            android:layout_margin="12dp"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:paddingRight="55dp"
+            android:paddingLeft="55dp"
+            android:background="@drawable/for_edit_text_bck"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:layout_margin="12dp"
+            android:onClick="loginUser"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

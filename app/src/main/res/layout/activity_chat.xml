@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:background="@color/color1"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_above="@id/linearLayoutContaningEditText"
+        android:id="@+id/chatMessagesRecyclerView"
+        />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color1"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayoutContaningEditText"
+        android:layout_marginBottom="3dp"
+
+        >
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="7dp"
+            android:hint="Enter your Message...."
+            android:background="@drawable/for_edit_text_bck"
+            android:id="@+id/chatMessageEditText"/>
+
+        <ImageView
+            android:id="@+id/sendMessageImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:src="@drawable/sendmail" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

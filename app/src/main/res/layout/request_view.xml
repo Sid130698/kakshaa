@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/for_edit_text_bck"
+        android:id="@+id/requestViewLinearLayout"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="Student name"
+                android:layout_margin="12dp"
+                android:padding="5dp"
+                android:id="@+id/studentNamerequestTV"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="physics"
+                android:layout_marginLeft="12dp"
+                android:padding="5dp"
+                android:id="@+id/physicsRequestTV"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="chemistry"
+                android:layout_marginLeft="12dp"
+                android:padding="5dp"
+                android:id="@+id/chemRequestTV"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="Mathematics"
+                android:layout_marginLeft="12dp"
+                android:padding="5dp"
+                android:id="@+id/mathRequestTV"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:layout_margin="20dp"
+                android:id="@+id/acceptReqButton"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Reject"
+                android:id="@+id/rejectReqButton"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

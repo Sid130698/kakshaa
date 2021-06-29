@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Announcements"
+        android:icon="@drawable/megaphone"
+        android:id="@+id/announcementsMenuItem"/>
+    <item
+        android:title="Assignments"
+        android:id="@+id/assignmentsMenuItem"
+        android:icon="@drawable/assignment"/>
+    <item
+        android:title="Post"
+
+        android:id="@+id/addpostMenuItem"
+        android:icon="@drawable/add"/>
+
+    <item
+        android:title="Chat"
+        android:id="@+id/chatMenuItem"
+        android:icon="@drawable/chat"/>
+    <item
+        android:title="Account"
+        android:id="@+id/accountMenuItem"
+        android:icon="@drawable/account"/>
+
+
+</menu>

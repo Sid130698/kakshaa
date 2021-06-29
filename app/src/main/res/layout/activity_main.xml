@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/waltograph_ui"
+            android:text="Tuition Buddy"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:layout_margin="48dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/for_edit_text_bck"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:onClick="goToRegisterActivity"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:text="Register" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/waltograph_ui"
+            android:text="or"
+            android:textSize="28sp"
+            android:layout_margin="8dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="55dp"
+            android:paddingLeft="55dp"
+            android:background="@drawable/for_edit_text_bck"
+            android:text="Log-In"
+            android:onClick="goToLoginActivity"
+            android:id="@+id/logInButton"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
